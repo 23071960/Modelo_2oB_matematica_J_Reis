@@ -29,10 +29,14 @@ linha3.textContent = 'Esta página é uma atividade proposta para o 2º ano, Tur
 linha3.style.margin = '5px 0';
 linha3.style.color = '#cccccc';  // Tom mais suave para diferenciar
 
+const linha4 = document.createElement('p');
+linha4.textContent ='Autor: Prof Domicio Pedra'
+
 // Montando o rodapé
 rodape.appendChild(linha1);
 rodape.appendChild(linha2);
 rodape.appendChild(linha3);
+rodape.appendChild(linha4);
 
 // Adicionando ao body
 document.body.appendChild(rodape);
