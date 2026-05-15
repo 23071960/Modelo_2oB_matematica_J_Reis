@@ -1,13 +1,16 @@
 // ========== RODAPÉ ==========
 const rodape = document.createElement('footer');
 
+
 // Estilos do rodapé
 rodape.style.backgroundColor = '#08042d';       // Mesma cor do cabeçalho
 rodape.style.color = '#ffffff';
 rodape.style.textAlign = 'center';
 rodape.style.padding = '5px';
 rodape.style.marginTop = '0px';
-rodape.style.fontSize = '6px';
+rodape.style.fontSize = '16px';
+
+
 rodape.style.fontFamily = 'Verdana, sans-serif';
 rodape.style.lineHeight = '1';
 
@@ -19,12 +22,11 @@ linha1.style.margin = '5px 0';
 const linha2 = document.createElement('p');
 linha2.textContent = 'Ensino Fundamental, Médio e Profissionalizante';
 linha2.style.margin = '5px 0';
-linha2.style.fontSize = '6px';
+
 
 const linha3 = document.createElement('p');
 linha3.textContent = 'Esta página é uma atividade proposta para o 2º ano, Turma B - Matemática - Ensino Médio - Disciplina de Programação';
 linha3.style.margin = '5px 0';
-linha3.style.fontSize = '6px';
 linha3.style.color = '#cccccc';  // Tom mais suave para diferenciar
 
 // Montando o rodapé

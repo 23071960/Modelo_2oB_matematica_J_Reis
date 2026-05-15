@@ -7,16 +7,16 @@ container.style.alignItems = 'center';
 container.style.gap = '20px';
 container.style.padding = '20px';
 container.style.margin = '20px auto';
-container.style.maxWidth = '800px';
-container.style.backgroundColor = '#f5f5f5';
+container.style.maxWidth = '900px';
+container.style.backgroundColor = '#e2e6ef';
 container.style.borderRadius = '10px';
 
 // ========== Imagem ==========
 const estudante = document.createElement('img');
 estudante.src = 'estudante.jfif';
 estudante.alt = 'Foto do estudante';
-estudante.style.width = '200px';
-estudante.style.height = '200px';
+estudante.style.width = '400px';
+estudante.style.height = '600px';
 estudante.style.borderRadius = '10px';
 estudante.style.objectFit = 'cover';
 
@@ -28,9 +28,9 @@ texto.innerHTML = 'Este é um típico e feliz aluno de programação, que poderi
     'esse exemplo para nos prepararmos para realizar nosso sonhos no mercado de trabalho e, portanto, na vida.';
 
 texto.style.textAlign = 'justify';
-texto.style.fontSize = '10px';
+texto.style.fontSize = '25px';
 texto.style.fontFamily = 'verdana';
-texto.style.lineHeight = '1.6';
+texto.style.lineHeight = '1.4';
 texto.style.color = '#333';
 texto.style.margin = '0';
 
@@ -40,9 +40,9 @@ const blocoCitacao = document.createElement('div');
 // Estilos do bloco de destaque
 blocoCitacao.style.backgroundColor = '#d1d4dc';      // Fundo leve cinza
 blocoCitacao.style.borderLeft = '5px solid #08042d'; // Borda lateral escura (cor do cabeçalho)
-blocoCitacao.style.padding = '10px';
+blocoCitacao.style.padding = '20px';
 blocoCitacao.style.margin = '20px auto';
-blocoCitacao.style.maxWidth = '350px';
+blocoCitacao.style.maxWidth = '900px';
 blocoCitacao.style.borderRadius = '0 10px 10px 0';   // Arredonda só a direita
 blocoCitacao.style.boxShadow = '2px 2px 10px rgba(0, 0, 0, 0.15)'; // Sombra suave
 
@@ -56,11 +56,11 @@ texto1.innerHTML = '"Um homem se humilha se castram seu sonho. ' +
     '<em>— Gonzaguinha, <strong>O Que É, O Que É?</strong></em>';
 
 texto1.style.textAlign = 'justify';
-texto1.style.fontSize = '8px';
+texto1.style.fontSize = '20px';
 texto1.style.fontFamily = 'Georgia, serif';  // Fonte serifada para citações
-texto1.style.lineHeight = '1.8';
-texto1.style.color = '#444';
-texto1.style.margin = '0';
+texto1.style.lineHeight = '1.4';
+texto1.style.color = '#322424';
+texto1.style.margin = '10';
 texto1.style.fontStyle = 'italic';           // Texto em itálico
 
 // Montando a citação
